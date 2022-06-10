@@ -167,6 +167,12 @@ journalctl -t kujirad -r
 journalctl -t kujirad -f
 ```
 
+## Execute the folloiwng command to get the node id
+
+```
+kujirad tendermint show-node-id
+```
+
 ## Create a Wallet for your Validator Node
 
 Make sure to copy the 24 words Mnemonics Phrase, save it in a file and store it on a safe location.
